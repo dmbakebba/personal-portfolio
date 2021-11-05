@@ -1,0 +1,112 @@
+/*style format*/
+body{
+    background-color: white;
+    line-height: 1.5;
+    color: black;
+    font-size: 1rem;
+}
+img{
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+/*design style*/
+.header{
+    justify-content: space-between;
+    padding: 1rem;
+    display: flex;
+    gap: 10px;
+    
+}
+.logo{
+    text-decoration: none;
+}
+.menu{
+    gap: 30px;
+    
+}
+.menu a{
+    text-decoration: none;
+    gap: 30px;
+}
+.welcome-text{
+    
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.welcome-text>a{
+    text-decoration: none;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    text-align: center;
+    border: 1px solid white;
+
+    
+}
+.h1{
+    font-size: 3rem;
+}
+.welcome{
+background-color: gray;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+.h2{
+    text-align: center;
+}
+.project-sec{
+    
+    width: 80%;
+    margin: auto;
+}
+.item{
+    list-style: none;
+    text-align: center;
+    padding: 9rem 0;
+
+}
+.list{
+display: grid;
+grid-template-columns: 32% 32% 32% ;
+gap: 2%;
+padding: 1rem;
+margin: 0;
+
+
+
+}
+.item a{
+    text-decoration: none;
+
+
+}
+
+.tribute{
+    background-color: silver;
+    
+}
+.survey{
+    background-color: hotpink;
+}
+.product{
+    background-color: yellow;
+}
+.documentation{
+    background-color: coral;
+}
+.personal{
+    background-color: gray;
+}
+.footer{
+    text-align: center;
+    background-color: hotpink;
+    padding: 0.5rem 0.5rem;
+}
